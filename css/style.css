@@ -1,0 +1,55 @@
+/*
+    Última versión 1.0 20/09/2021
+    
+    Hoja de estilos complementaria para el correcto display
+    del formulario de registro
+
+    los estilos estan ordenados de esta forma:
+    -Tags HTML
+    -ID 
+    -Clases 
+*/
+
+
+body{
+    background-color: #632B83;
+}
+
+svg {
+    width: 50%;
+    margin:3%;
+}
+
+label{
+    font-style: italic;
+    font-weight: bold;
+    color:#632B83;
+}
+
+#ZonaDerecha{
+    background-color: #fff;
+    margin-top:2%;
+    margin-right:2%;
+}
+
+#ZonaIzquierda{
+    background-color: #fff;
+    margin-left:1.5%;
+    margin-top: 2%;
+}
+
+#imagen-accion{
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #632B83;
+    border-color: #632B83;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #632B83;
+    background-color: #fff;
+    border-color: #632B83;
+}
