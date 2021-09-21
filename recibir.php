@@ -12,10 +12,15 @@
 */
 
 $params_needed = ["nombreUsuario", "apellidoPa", "apellidoMa",
-"fechaNacimiento", "email","phone","password"];
+"fechaNacimiento", "email","phone","password_user"];
+
+//el array de parametros recibidos
 $given_params = array_keys($_POST);
+
+//se comparan los 2 arrays
 $missing_params = array_diff($params_needed, $given_params);
 
+//si falta algun parametro se devuelve falso y no se inserta nada en la db
 if(!empty($missing_params))
 {
     echo "false";
